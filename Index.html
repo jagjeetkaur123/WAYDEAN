@@ -11,6 +11,8 @@
   <meta name="description" content="Waydean Nursery supplies wholesale citrus trees from insect-proof hothouse production, virus-tested budwood, and high quality rootstocks. Taking orders for 2027/2028.">
   
   <!-- Open Graph Meta Tags (Social Media Sharing) -->
+    <meta name="robots" content="index, follow">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
   <meta property="og:type" content="business.business">
   <meta property="og:title" content="Waydean Nursery | Wholesale Citrus Since 2010">
   <meta property="og:description" content="Premium wholesale citrus trees grown in insect -proof hothouses with virus-tested budwood. All varieties on custom rootstocks.">
@@ -25,34 +27,48 @@
   <meta name="twitter:image" content="https://waydeannursery.com.au/og-image.png">
   
   <!-- Local Business Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Waydean Nursery",
-    "image": "https://waydeannursery.com.au/logo.png",
-    "description": "Wholesale citrus tree nursery with insect-proof hothouse production, virus-tested budwood, and custom rootstocks.",
-    "telephone": "+61427559454",
-    "email": "deanmorris700@bigpond.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "97 Rombola Rd",
-      "addressLocality": "Leeton",
-      "addressRegion": "NSW",
-      "postalCode": "2705",
-      "addressCountry": "AU"
-    },
-    "url": "https://waydeannursery.com.au",
-    "priceRange": "$$",
-    "sameAs": [],
-    "opening_hours_specification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "08:00",
-      "closes": "17:00"
+    <!-- Local Business Schema (enriched for crawl and contact details) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://waydeannursery.com.au#organization",
+      "name": "Waydean Nursery",
+      "image": "https://waydeannursery.com.au/logo.png",
+      "description": "Wholesale citrus tree nursery with insect-proof hothouse production, virus-tested budwood, and custom rootstocks.",
+      "telephone": "+61427559454",
+      "email": "deanmorris700@bigpond.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "97 Rombola Rd",
+        "addressLocality": "Leeton",
+        "addressRegion": "NSW",
+        "postalCode": "2705",
+        "addressCountry": "AU"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -34.5600,
+        "longitude": 146.4000
+      },
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+61427559454",
+        "contactType": "customer service",
+        "areaServed": "AU",
+        "availableLanguage": "English"
+      }],
+      "url": "https://waydeannursery.com.au",
+      "priceRange": "$$",
+      "sameAs": [],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "17:00"
+      }
     }
-  }
-  </script>
+    </script>
   
   <!-- Google Analytics (Replace GA_MEASUREMENT_ID with actual ID) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
