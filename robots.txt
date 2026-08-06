@@ -5,7 +5,7 @@ Disallow: /private/
 Disallow: /*.pdf$
 Disallow: /*?
 
-Sitemap: https://waydeannursery.com.au/sitemap.xml
+Sitemap: https://waydean.com.au/sitemap.xml
 
 # Google
 User-agent: Googlebot
