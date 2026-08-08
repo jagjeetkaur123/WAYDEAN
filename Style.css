@@ -516,31 +516,56 @@ footer p {
 }
 
 @media (max-width: 780px) {
+
+  /* HEADER FIX */
+  header {
+    text-align: center;
+  }
+
   .header-inner {
     flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .brand {
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
   nav ul {
     justify-content: center;
   }
-}
 
+  /* LOGO SIZE FIX */
+  .logo-svg,
+  .logo-img,
+  .logo-placeholder {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* HERO FIX */
+  .hero {
+    padding: 2rem 0;
+  }
+
+  /* CONTACT CARD FIX */
   .contact-owner-card {
     flex-direction: column;
     text-align: center;
-    padding: 1.75rem 1.5rem;
+    padding: 1.25rem;
+    gap: 1rem;
   }
 
   .contact-details {
     justify-content: center;
   }
 
-  nav ul {
-    justify-content: center;
-  }
-
-  .hero {
-    padding: 3rem 0;
+  /* GALLERY FIX */
+  .gallery-item img {
+    height: auto;
+    aspect-ratio: 4/3;
   }
 }
